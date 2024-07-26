@@ -1,12 +1,12 @@
-import Card from './Card.jsx'
+import React from 'react';
+import Button from './Button';
 
 function App() {
-return(
-  <>
-  <Card/>
-  </>
-); 
-
+  return (
+    <div className="App">
+      <Button />
+    </div>
+  );
 }
 
-export default App
+export default App;
