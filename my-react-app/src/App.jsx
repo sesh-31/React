@@ -1,15 +1,12 @@
 import React from 'react';
-import Student from './Student.jsx';
+import UserGreeting from './UserGreeting';
 
 function App() {
-  return (
-    <>
-      <Student name="Spongbob" age={30} isStudent={true}/>
-      <Student name="Pattrick" age={42} isStudent={false}/>
-      <Student name="Sqiudward" age={50} isStudent={false}/>
-      <Student name="Sandy" age={27} isStudent={true}/>
-      </>
-  );
+ return(
+  <>
+  <UserGreeting isLoggedIn={true} username="Shesh Raj paudel"/>
+  </>
+ );
 }
 
 export default App;
