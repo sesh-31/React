@@ -1,11 +1,12 @@
-import Button from "./Button.jsx";
-import ProfilePicture from "./ProfilePicture.jsx";
-function app(){
+import React from "react";
+import Counter from "./Counter.jsx";
 
-  return(
-   
-    
-    <ProfilePicture/>
+function App() {
+  return (
+    <>
+      <Counter/>
+    </>
   );
 }
-export default app;
+
+export default App;
